@@ -1,11 +1,11 @@
 import React from "react";
 import { NavBarButtons } from "../components/navigation/desktop/nav-bar-buttons";
 
-export const CallbackPage = () => {
+export const PublicPage = () => {
   return (
-    <div className="page-layout">
+    <div className="public-page-layout">
       <NavBarButtons />
-      Callback page Hello World !
+     Public Page page Hello world !
     </div>
   );
 };
